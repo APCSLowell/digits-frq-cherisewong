@@ -17,6 +17,7 @@ public class Digits
 		int num2 = num;
 		for (int i = 0; i < sum; i++){
 			digitList.add(num2 % 10);
+			num2 /= 10;
 		}
 	}
 
